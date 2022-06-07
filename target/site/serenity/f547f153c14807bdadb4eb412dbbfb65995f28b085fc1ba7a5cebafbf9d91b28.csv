@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"All users CRUD test","This will create a new user","SUCCESS","2022-06-07T21:13:41.839+01:00[Europe/London]","0.0","4.47"
+"All users CRUD test","Update the user information and verify the updated information for ID = 11017","SUCCESS","2022-06-07T21:13:47.752+01:00[Europe/London]","0.0","0.87"

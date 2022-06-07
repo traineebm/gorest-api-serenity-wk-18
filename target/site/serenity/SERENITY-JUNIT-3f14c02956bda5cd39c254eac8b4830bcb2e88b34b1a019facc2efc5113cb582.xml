@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="in.co.gorest.allusersinfo.AllUsersCRUDTest" skipped="0" tests="4" time="7.43" timestamp="2022-06-07T21:13:41.839+01:00[Europe/London]"><testcase classname="in.co.gorest.allusersinfo.AllUsersCRUDTest" name="This will create a new user"/><testcase classname="in.co.gorest.allusersinfo.AllUsersCRUDTest" name="Verify if the user was added to the application for name = Dexter Maniac"><error message="Index: 0, Size: 0" type="java.lang.IllegalArgumentException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:57)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+in.co.gorest.allusersinfo.UserSteps.getUserInfoByFirstName(UserSteps.java:43)&#13;
+in.co.gorest.allusersinfo.AllUsersCRUDTest.test002(AllUsersCRUDTest.java:39)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.allusersinfo.AllUsersCRUDTest" name="Update the user information and verify the updated information for ID = 11017"/><testcase classname="in.co.gorest.allusersinfo.AllUsersCRUDTest" name="Delete the user and verify if the user is deleted! for ID = 10960"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.allusersinfo.AllUsersCRUDTest.test004(AllUsersCRUDTest.java:60)&#13;
+</system-err></testcase></testsuite>

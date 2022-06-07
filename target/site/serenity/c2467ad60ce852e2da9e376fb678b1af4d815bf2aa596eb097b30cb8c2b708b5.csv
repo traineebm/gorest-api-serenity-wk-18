@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"All users CRUD test","Delete the user and verify if the user is deleted! for ID = 10960","FAILURE","2022-06-07T21:13:48.624+01:00[Europe/London]","0.0","0.79"
